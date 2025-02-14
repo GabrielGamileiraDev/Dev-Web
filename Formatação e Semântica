@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto em negrito e itálico</title>
+    <style>
+        mark { background-color: aqua;}
+    </style>
+</head>
+<body>
+    <h1>Principais formatações de texto</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Utilizamos B para deixar em <b>negrito</b> sem semântica.</p>
+    <p>Utilzamos <strong>STRONG</strong> para aplicar à um significado.</p>
+    <h2>Itálico/ Ênfase</h2>
+    <p>Utilizamos <i>'i' para deixar a letra itálica</i> somente na forma.</p>
+    <p>Utilizamos <em>'em' para habilitar um significado (semântica) ao meu texto.</em></p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar um marcador utilizando <mark>'mark'</mark>.</p>
+    <p>Caso queira mudar a fonte do texto <mark style="background-color: aqua;">utilizamos 'mark style = background-color: e a cor de preferência.</mark></p>
+    <p><b>E seu eu quiser utilizar a mesma cor em mil parágrafos?</b> Você vai no HEAD e seleciona o estilo.</p>
+    <p>Para desconsiderar uma palavra <del>utilizamos cavalo</del>...</p>
+    <p>Para sublinhar uma palavra ou frase <ins>utilizamos 'ins'</ins>...</p>
+    <p>Caso queiram elevar um número ou letra <mark>utilizamos 'sup'</mark>. Exemplo -> x<sup>2</sup>+21</p>
+    <p>Caso queira descer um número ou letra <mark>utilizamos 'sub'</mark>utilizamos 'sub'. Exemplo -> H<sub>2</sub>O</p>
+</body>
+</html>
